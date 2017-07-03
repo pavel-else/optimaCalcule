@@ -1,0 +1,42 @@
+html, body, p, h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+}
+
+header {
+	min-height: 50px;
+	background-color: #369;
+}
+
+h1 {
+	text-align: center;
+	
+}
+
+main {
+	min-height: 100px;
+}
+
+.details-block {
+	width: 100px;
+	margin: 10px;
+}
+
+.details-block .details {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+.details-block .inp-add {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 10px;
+}
+.details-block .btn-add {
+	margin-top: 5px;
+	width: 100%;
+}
