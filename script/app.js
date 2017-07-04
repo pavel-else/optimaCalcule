@@ -4,14 +4,21 @@ var sizeList = [];
 
 rendering(sizeList);
 
-$('.btn-add').on('click', function () {
-	addToJson();
-	$('.inp-add').val('');
-
+$('.inp-add').on('keypress', function (event) {
+	if (event.keyCode == 13) {
+		addToJson();
+		$('.inp-add').val('');
+	}
 });
 
+$('.btn-add').on('click', function (){
+	addToJson();
+	$('.inp-add').val('');
+});
+
+
 function addToJson () {
-	var str = $('.inp-add').val().trim(); //234 6
+	var str = $('.inp-add').val().trim();
 	if ((str == 0) || (str == '') || (str == ' ')) return;
 
 	var pos = str.indexOf(' ');
