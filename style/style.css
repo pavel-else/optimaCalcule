@@ -13,11 +13,11 @@ header {
 }
 
 h1 {
-	text-align: center;
-	
+	text-align: center;	
 }
 
 main {
+	display: flex;
 	min-height: 100px;
 }
 
@@ -39,4 +39,15 @@ main {
 .details-block .btn-add {
 	margin-top: 5px;
 	width: 100%;
+}
+
+
+.property-block {
+	min-height: 200px;
+	min-width: 100px;
+	border: 1px solid lightgray;
+}
+
+.sendToServer {
+	text-align: center;
 }

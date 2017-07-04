@@ -44,3 +44,7 @@ function rendering(sizeList) {
 		$('.details'). append(contentWrap);
 	});
 }
+
+$('.sendToServer').on('click', function () {
+	console.log('asdf');
+});
