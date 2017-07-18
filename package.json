@@ -1,0 +1,19 @@
+{
+  "name": "optimacalcule",
+  "version": "1.0.0",
+  "description": "An application that allows you to calculate the optimal amount of material from the dimensions of parts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavel-else/optimaCalcule.git"
+  },
+  "author": "de.pavel.se",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavel-else/optimaCalcule/issues"
+  },
+  "homepage": "https://github.com/pavel-else/optimaCalcule#readme"
+}
